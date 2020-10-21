@@ -1,4 +1,4 @@
-#include <iostream>
+#include "Header.h"
 using namespace std;
 int tong(int a, int b)
 {
@@ -137,7 +137,16 @@ int main()
 		}
 		break;
 	case 3:
+	{
+		int so1 = 0,ketQua;
+		int so2 = tao2SoNgauNhien(so1);
+		cout << so1 << " + " << so2 << " =?" << endl;
+		cin >> ketQua;
+		if (kiemTraCong(so1, so2, ketQua)) cout << "Dung" << endl;
+		else cout << "Sai" << endl;
+
 		break;
+	}
 	case 4:
 		break;
 
@@ -146,6 +155,6 @@ int main()
 		break;
 	}
 
-
+	system("pause");
 	return 0;
 }
