@@ -8,3 +8,4 @@ using namespace std;
 bool kiemTraCong(int soCong1, int soCong2, float ketQua);
 
 int tao2SoNgauNhien(int &so2);
+void onTapPhepTru();
