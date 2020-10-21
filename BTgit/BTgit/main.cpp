@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+
+#include "Header.h"
 int tong(int a, int b)
 {
 	return a + b;
@@ -64,6 +64,7 @@ int main()
 	case 3:
 		break;
 	case 4:
+		onTapPhepTru();
 		break;
 
 	default:
