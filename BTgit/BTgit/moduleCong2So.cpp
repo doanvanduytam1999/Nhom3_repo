@@ -10,3 +10,4 @@ int tao2SoNgauNhien(int &so2) {
 	so2 = rand() % 100 + 1;
 	return rand() % 100 + 1;
 }
+a
