@@ -148,6 +148,7 @@ int main()
 		break;
 	}
 	case 4:
+		onTapPhepTru();
 		break;
 
 	default:
